@@ -1,0 +1,64 @@
+/*
+
+@file: global styles
+@author: Jonas E.
+@date: 2020/11/08
+@version: 1.0.0
+
+*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+:root {
+    --main-color: #1E1E1E;
+    --second-color: #252526;
+    --third-color: #333;
+    --fourth-color: #404040;
+    --font-color: #FFF;
+    --logo-color: #EfD0A2;
+    --green-color: #43b581;
+    --red-color: #f04747;
+    --red-two-color: #d83f3f;
+    font: 1.25em 'Open Sans';
+}
+
+* {
+    box-sizing: border-box;
+    color: var(--font-color);
+}
+
+input {
+    color: #000 !important;
+}
+
+input[type=submit] {
+    color: #000 !important;
+}
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-color);
+}
+
+    body div#main {
+        display: flex;
+        flex-flow: column;
+        height: 100%;
+    }
+
+    body::-webkit-scrollbar {
+        width: .75rem;
+    }
+
+    body::-webkit-scrollbar-track {
+        background: var(--second-color);
+    }
+
+    body::-webkit-scrollbar-thumb {
+        background: var(--third-color);
+    }
