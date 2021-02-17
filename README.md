@@ -11,3 +11,6 @@
 
 > ### Troubleshoot:
 > - https://stackoverflow.com/questions/18177148/xampp-mysql-does-not-start
+
+> ### Screenshot:
+> - Win + Shift + S
